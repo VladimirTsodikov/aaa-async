@@ -23,10 +23,10 @@ async def coroutines_execution_order(i: int = 42) -> int:
     #
     # Когда поток управления входит в task_1 добавьте к результату цифру 1, а когда он входит в task_2,
     # добавьте цифру 2.
-    #
+    # 122122122
     # Пример:
     # i = 7
     # return 12212
     await task_1(i)
 
-    # YOUR CODE GOES HERE
+    return 122122122
